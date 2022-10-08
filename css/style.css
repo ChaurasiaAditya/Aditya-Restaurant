@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+#navbar{
+    position: relative;
+}
 
 /* Navigation Bar */
 #navbar {
@@ -21,11 +24,11 @@
 
 /* Navigation Bar: Loga and image */
 #logo {
-    margin: 12px 35px;
+    margin: 5px 35px;
 }
 
 #logo img {
-    height: 80px;
+    height: 60px;
     margin: 3px 5px;
 }
 
