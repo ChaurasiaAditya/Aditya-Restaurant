@@ -1,18 +1,23 @@
 /* Css reset */
 * {
+
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-}
-#navbar{
-    position: relative;
 }
 
 /* Navigation Bar */
 #navbar {
+
+    position: relative;
+}
+
+#navbar {
     display: flex;
     align-items: center;
 }
-#navbar::before{
+
+#navbar::before {
     content: "";
     background-color: black;
     position: absolute;
@@ -22,7 +27,7 @@
     opacity: 0.4;
 }
 
-/* Navigation Bar: Loga and image */
+/* Navigation Bar: Logo and image */
 #logo {
     margin: 5px 35px;
 }
@@ -43,13 +48,65 @@
 }
 
 #navbar ul li a {
+    font-family: 'Ubuntu', sans-serif;
     color: white;
     display: block;
     text-decoration: none;
     padding: 3px 20px;
     border-radius: 20px;
 }
+
 #navbar ul li a:hover {
     color: black;
     background-color: white;
+}
+
+/* Home Section */
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before {
+    content: "";
+    background: url(/Images/tomato.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.70;
+}
+
+#home h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#home p {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* Utility class */
+.h-primary {
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+.btn {
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px;
+    cursor: pointer;
 }
