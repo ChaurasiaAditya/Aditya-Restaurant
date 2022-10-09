@@ -149,3 +149,41 @@
     height: 170px;
     padding: 10px 60px;
 }
+
+/* Contact section */
+#contact{
+    margin-top: -30px;
+    /* display: flex; */
+    /* position: relative; */
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    background: url(/Images/contact-us.jpg) no-repeat center center/cover;
+    height: 45%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+#contact-box{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-bottom: 34px;
+}
+
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 17px;
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-family: 'Poppins', sans-serif;
+   font-size: 1.4rem;
+
+}
