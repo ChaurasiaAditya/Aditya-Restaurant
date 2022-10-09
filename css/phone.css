@@ -1,0 +1,9 @@
+/* Navigation Bar*/
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a {
+    padding: 0px 17px 15px;
+    font-size: 18px;
+}
