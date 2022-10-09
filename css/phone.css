@@ -27,3 +27,27 @@
     margin-bottom: 20px;
     font-size: 20px;
 }
+
+/* Services */
+#services {
+    flex-direction: column;
+}
+
+#clients {
+    overflow: hidden;
+}
+
+.services-container {
+    margin-top: 10rem;
+}
+
+#services {
+    margin: 3px 3px;
+    display: flex;
+}
+
+#services .box img {
+    display: block;
+    height: 100px;
+    margin: auto;
+}
