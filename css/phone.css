@@ -7,3 +7,23 @@
     padding: 0px 17px 15px;
     font-size: 18px;
 }
+
+/* Home */
+#home {
+    padding: 3px 2px;
+}
+
+#home::before {
+    height: 62%;
+    top: -40px;
+}
+
+#home h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#home p {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
