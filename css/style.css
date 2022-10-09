@@ -1,6 +1,5 @@
 /* Css reset */
 * {
-
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -99,13 +98,11 @@
 }
 
 #services {
-
     margin: 34px 34px;
     display: flex;
 }
 
 #services .box {
-
     border: 2px solid brown;
     padding: 34px;
     margin: 3px 8px;
@@ -127,10 +124,11 @@
 
 /* Clint section */
 
-#client-section{
+#client-section {
     height: 408px;
 }
-#client-section::before{
+
+#client-section::before {
     content: "";
     position: absolute;
     background: url(/Images/bg1.jpg)no-repeat center center/cover;
@@ -140,23 +138,23 @@
     opacity: 0.3;
 }
 
-#clients{
+#clients {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#clients img{
+
+#clients img {
     height: 170px;
     padding: 10px 60px;
 }
 
 /* Contact section */
-#contact{
+#contact {
     margin-top: -30px;
-    /* display: flex; */
-    /* position: relative; */
 }
-#contact::before{
+
+#contact::before {
     content: "";
     position: absolute;
     background: url(/Images/contact-us.jpg) no-repeat center center/cover;
@@ -165,34 +163,36 @@
     z-index: -1;
     opacity: 0.3;
 }
-#contact-box{
-display: flex;
-justify-content: center;
-align-items: center;
-padding-bottom: 34px;
+
+#contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
 }
 
 #contact-box input,
-#contact-box textarea{
+#contact-box textarea {
     width: 100%;
     padding: 0.5rem;
     border-radius: 10px;
     font-size: 17px;
 }
-#contact-box form{
+
+#contact-box form {
     width: 40%;
 }
-#contact-box label{
-    font-family: 'Poppins', sans-serif;
-   font-size: 1.4rem;
 
+#contact-box label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
 }
 
 /* Footer */
-footer{
+footer {
     background-color: black;
     padding: 10px;
-    color:white;
+    color: white;
 }
 
 /* Utility class */

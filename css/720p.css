@@ -1,0 +1,17 @@
+/* For 720pixel Resolution */
+#home {
+    margin-bottom: -160px;
+}
+
+#client-section::before {
+    height: 60%;
+}
+
+#clients img {
+    height: 140px;
+    padding: 10px 25px;
+}
+
+#contact::before {
+    height: 65%;
+}
