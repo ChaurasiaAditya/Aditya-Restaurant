@@ -194,3 +194,32 @@ footer{
     padding: 10px;
     color:white;
 }
+
+/* Utility class */
+.h-primary {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+.h-secondry {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.4rem;
+    padding: 12px;
+}
+
+.btn {
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px;
+    cursor: pointer;
+}
+
+.center {
+    text-align: center;
+}
