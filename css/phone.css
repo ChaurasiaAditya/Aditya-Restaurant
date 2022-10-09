@@ -70,3 +70,28 @@
     height: 66%;
     opacity: 0.4;
 }
+
+/* Contact us */
+#contact {
+    margin-top: 203px;
+}
+
+#contact::before {
+    height: 48%;
+}
+
+footer {
+    margin-top: -20px;
+}
+
+.h-primary {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    padding: 12px;
+}
+
+.h-secondry {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.4rem;
+    padding: 12px;
+}
