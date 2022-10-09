@@ -187,3 +187,10 @@ padding-bottom: 34px;
    font-size: 1.4rem;
 
 }
+
+/* Footer */
+footer{
+    background-color: black;
+    padding: 10px;
+    color:white;
+}
