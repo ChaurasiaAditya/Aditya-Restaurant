@@ -1,3 +1,4 @@
+
 /* Navigation Bar*/
 #navbar {
     flex-direction: column;
@@ -45,7 +46,6 @@
     margin: 3px 3px;
     display: flex;
 }
-
 #services .box img {
     display: block;
     height: 100px;
@@ -53,37 +53,34 @@
 }
 
 /* Client */
-#clients {
+#clients{
     flex-direction: column;
 }
-
-#clients img {
+#clients img{
     height: 80px;
     padding: 10px 60px;
 }
-
-#client-section {
+#client-section{
     height: 400px;
 }
-
-#client-section::before {
+#client-section::before{
     height: 66%;
     opacity: 0.4;
 }
 
 /* Contact us */
-#contact {
+#contact{
     margin-top: 203px;
 }
-
-#contact::before {
+#contact::before{
     height: 48%;
 }
 
-footer {
+footer{
     margin-top: -20px;
 }
 
+/* Utility */
 .h-primary {
     font-family: 'Ubuntu', sans-serif;
     font-size: 2.5rem;
