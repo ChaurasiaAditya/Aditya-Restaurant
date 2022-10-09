@@ -93,3 +93,35 @@
     font-size: 1.5rem;
 }
 
+/* Servises section */
+.services-container {
+    margin-top: 17rem;
+}
+
+#services {
+
+    margin: 34px 34px;
+    display: flex;
+}
+
+#services .box {
+
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 3px 8px;
+    border-radius: 28px;
+    background-color: #f2f2f2;
+    box-shadow: 3px 3px 10px rgba(245, 174, 92, 0.925);
+}
+
+#services .box img {
+    display: block;
+    height: 160px;
+    margin: auto;
+}
+
+#services .box p {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
