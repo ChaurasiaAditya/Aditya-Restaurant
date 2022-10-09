@@ -7,14 +7,11 @@
 }
 
 /* Navigation Bar */
-#navbar {
-
-    position: relative;
-}
 
 #navbar {
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 #navbar::before {
@@ -25,128 +22,4 @@
     width: 100%;
     z-index: -1;
     opacity: 0.4;
-}
-
-/* Navigation Bar: Logo and image */
-#logo {
-    margin: 5px 35px;
-}
-
-#logo img {
-    height: 60px;
-    margin: 3px 5px;
-}
-
-/* Navigation Bar: List Styling */
-#navbar ul {
-    display: flex;
-}
-
-#navbar ul li {
-    list-style: none;
-    font-size: 1.3rem;
-}
-
-#navbar ul li a {
-    font-family: 'Ubuntu', sans-serif;
-    color: white;
-    display: block;
-    text-decoration: none;
-    padding: 3px 20px;
-    border-radius: 20px;
-}
-
-#navbar ul li a:hover {
-    color: black;
-    background-color: white;
-}
-
-/* Home Section */
-#home {
-    display: flex;
-    flex-direction: column;
-    padding: 3px 200px;
-    height: 400px;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 180px;
-}
-
-#home::before {
-    content: "";
-    background: url(/Images/tomato.jpg) no-repeat center center/cover;
-    position: absolute;
-    height: 80%;
-    width: 100%;
-    z-index: -1;
-    opacity: 0.70;
-}
-
-#home h1 {
-    font-family: 'Ubuntu', sans-serif;
-    color: white;
-    text-align: center;
-}
-
-#home p {
-    color: white;
-    text-align: center;
-    font-size: 1.5rem;
-}
-
-/* Servises section */
-/* .services-container{
-    margin-top: 130px;
-} */
-#services{
-    
-    margin: 34px 34px;
-    display: flex;
-}
-#services .box{
-    
-    border: 2px solid brown;
-    padding: 34px;
-    margin: 3px 8px;
-    border-radius: 28px;
-    background-color: #f2f2f2;
-    box-shadow: 3px 3px 10px rgba(245, 174, 92, 0.925);
-}
-#services .box img{
-    display: block;
-    height: 160px;
-    margin: auto;
-}
-#services .box p{
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
-}
-
-/* Utility class */
-.h-primary {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 3.8rem;
-    padding: 12px;
-}
-
-.h-secondry {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 2.4rem;
-    padding: 12px;
-}
-
-.btn {
-    padding: 6px 20px;
-    border: 2px solid white;
-    background-color: brown;
-    color: white;
-    margin: 17px;
-    font-size: 1.5rem;
-    border-radius: 10px;
-    box-shadow: 3px 3px 20px;
-    cursor: pointer;
-}
-
-.center {
-    text-align: center;
 }
