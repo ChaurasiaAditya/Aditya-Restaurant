@@ -1,10 +1,20 @@
-/* Css reset */
+/* Css reset  & Global CSS */
 * {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
 }
-
+html{
+    scroll-behavior: smooth;
+}
+input, textarea{
+    border: none;
+    outline: none;
+}
+input:active{
+    border: none;
+    outline: none;
+}
 /* Navigation Bar */
 
 #navbar {
@@ -67,7 +77,7 @@
     height: 400px;
     justify-content: center;
     align-items: center;
-    margin-bottom: 180px;
+    margin-bottom: 150px;
 }
 
 #home::before {
@@ -152,12 +162,11 @@
 /* Contact section */
 #contact {
     margin-top: -30px;
+    background: url(/Images/contact-us.jpg) no-repeat center center/cover;
 }
-
 #contact::before {
     content: "";
     position: absolute;
-    background: url(/Images/contact-us.jpg) no-repeat center center/cover;
     height: 45%;
     width: 100%;
     z-index: -1;
@@ -174,9 +183,10 @@
 #contact-box input,
 #contact-box textarea {
     width: 100%;
-    padding: 0.5rem;
-    border-radius: 10px;
+    padding: 0.6rem 0.9rem;
+    border-radius: 5px;
     font-size: 17px;
+    margin: 5px 0;
 }
 
 #contact-box form {
@@ -185,7 +195,25 @@
 
 #contact-box label {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+#contact-box button{
+    padding: 10px 50px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #333;
+    font-weight: bold;
+    background: none;
+    transition: .3s;
+    margin-top: 20px;
+}
+#contact-box button:hover{
+    background-color: #333;
+    color: #fff;
+}
+#contact-box button:active{
+    transform: scale(0.8);
 }
 
 /* Footer */
@@ -217,7 +245,13 @@ footer {
     font-size: 1.5rem;
     border-radius: 10px;
     box-shadow: 3px 3px 20px;
-    cursor: pointer;
+    text-decoration: none;
+    transition: .2s;
+}
+.btn:hover{
+    transform: translate(0, 10px);
+    box-shadow: 0px 0px 5px;
+
 }
 
 .center {
