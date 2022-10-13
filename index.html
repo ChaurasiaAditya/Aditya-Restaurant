@@ -34,8 +34,7 @@
         <h1 class="h-primary"> Welcome to Aditya Restaurent</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nisi enim doloribus quasi itaque,</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-        <button class="btn">Order Now</button>
-
+        <a class="btn" href="#services">Order Now</a>
     </section>
 
     <section class="services-container">
@@ -86,22 +85,25 @@
     <section id="contact">
         <h1 class="h-primary center">Contact Us</h1>
         <div id="contact-box">
-            <form action="">
+            <form action="thankyou.html" method="post">
                 <div class="form-group">
-                    <label for="name">Name :</label>
-                    <input type="text" name="name" id="name" placeholder="Enter your Name">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your Name" autocomplete="off">
                 </div>
                 <div class="form-group">
-                    <label for="name">Email :</label>
-                    <input type="text" name="email" id="name" placeholder="Enter your Name">
+                    <label for="name">Email:</label>
+                    <input type="text" name="email" id="name" placeholder="Enter your Email" autocomplete="off">
                 </div>
                 <div class="form-group">
-                    <label for="name">Phone :</label>
-                    <input type="text" name="phone" id="name" placeholder="Enter your Name">
+                    <label for="name">Phone:</label>
+                    <input type="text" name="phone" id="name" placeholder="Enter your Phone" autocomplete="off">
                 </div>
                 <div class="form-group">
-                    <label for="nmessage">Message :</label>
-                    <textarea name="message" id="Message" cols="30" row="10"></textarea>
+                    <label for="nmessage">Message:</label>
+                    <textarea name="message" placeholder="Enter you message" id="Message" cols="30" row="20" autocomplete="off"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="button" onclick="javascript.voud(0)">Submit</button>
                 </div>
             </form>
         </div>
