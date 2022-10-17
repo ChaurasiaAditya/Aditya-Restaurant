@@ -1,6 +1,9 @@
 /* For 720pixel Resolution */
 #home {
-    margin-bottom: -160px;
+    /* margin-bottom: -160px; */
+}
+.services-container {
+    margin-top: 1px;
 }
 
 #client-section::before {
