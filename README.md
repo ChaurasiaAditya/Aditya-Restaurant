@@ -1,4 +1,4 @@
-# Responsive Restuarent Website
+# Responsive Restaurant Website
 
 
 ## Dekstop view
